@@ -21,7 +21,9 @@ Download Pip installer - `pip install pyinstaller`
 
 Make Binary with pyinstaller - `pyinstaller museplayer.py --onefile`
 
-go to directory with binary inside it - ``
+go to directory with binary inside it - `cd dist/`
+
+execute museplayer - `./museplayer`
 
 ## Make Museplayer executable anywhere
 move museplayer to the Bin folder (so you can execute command anywhere)
@@ -29,5 +31,10 @@ move museplayer to the Bin folder (so you can execute command anywhere)
 
 
 ## Command Usage
+NOTE: the most recent version of museplayer 0.1.22 currently only has support for queuing 2 songs at a time
+BEFORE USING: make sure you follow the steps inside **Make Museplayer execute anywhere** before following steps below
 
+Play one song - `museplayer /Location/of/song/`
+
+queue song (2 is the limit as of v0.1.22) - `museplayer /Location/of/first/song/ /Location/of/second/song/`
 
