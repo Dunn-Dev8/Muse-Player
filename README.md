@@ -7,4 +7,11 @@ Cli Music Player made inside python
 
 ## Build With pyinstaller
 
-## Commands
+
+
+## Make Museplayer executable anywhere
+
+
+## Command Usage
+
+
