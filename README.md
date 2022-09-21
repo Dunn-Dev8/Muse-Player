@@ -17,6 +17,12 @@ Debian - `apt install python3-pip`
 Arch - `sudo pacman -S python-pip`
 [If your Linux Distro is not mentioned here than search how to install pip for python3 on your appropriate Distro]
 
+Download Pip installer - `pip install pyinstaller`
+
+Make Binary with pyinstaller - `pyinstaller museplayer.py --onefile`
+
+go to directory with binary inside it - ``
+
 ## Make Museplayer executable anywhere
 move museplayer to the Bin folder (so you can execute command anywhere)
 `sudo mv ./museplayer /bin/`
