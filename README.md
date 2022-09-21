@@ -22,7 +22,7 @@ Arch - `sudo pacman -S python-pip`
 
 ## Make Museplayer executable anywhere
 move Museplayer to the Bin folder (so you can execute command anywhere)
-sudo mv ./Museplayer /bin/
+`sudo mv ./Museplayer /bin/`
 
 
 ## Command Usage
